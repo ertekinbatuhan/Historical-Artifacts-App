@@ -18,5 +18,6 @@ class DetailsActivity : AppCompatActivity() {
         aboutText.text = gelenIntent.aboutCity
         pictureView.setImageResource(gelenIntent.countryPicture)
         cityName1.text = gelenIntent.cityName
+        workText.text = gelenIntent.eserName
     }
 }
