@@ -15,7 +15,7 @@ class DetailsActivity : AppCompatActivity() {
         val gelenIntent = intent.getSerializableExtra("key") as Countries
 
 
-        detailText.text = gelenIntent.aboutCity
+        aboutText.text = gelenIntent.aboutCity
         pictureView.setImageResource(gelenIntent.countryPicture)
         cityName1.text = gelenIntent.cityName
     }
